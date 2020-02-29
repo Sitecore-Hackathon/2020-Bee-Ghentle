@@ -12,6 +12,10 @@
 #header.container, #content.container, #footer.container {
   background: $content-background-color;
   padding: 0 $padding-medium;
+  
+  @media(max-width: $mobile-grid-breakpoint) {
+    padding: 0 $padding-medium/2;
+  }
 }
 
 #header.container {
