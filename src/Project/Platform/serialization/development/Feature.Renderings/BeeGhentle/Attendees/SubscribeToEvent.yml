@@ -1,0 +1,24 @@
+﻿---
+ID: "127e0bfb-1e32-4291-88b8-498918d27e94"
+Parent: "4b70f046-3703-4a95-9363-f6c25dcbbac6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/BeeGhentle/Attendees/SubscribeToEvent
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: SubscribeToEvent
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Feature.Attendees.Areas.Attendees.Controllers.AttendeesController, Feature.Attendees
+- ID: "fc5c3451-dfde-4778-9901-5d0b1da1e212"
+  Hint: Area
+  Value: Attendees
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T221222Z

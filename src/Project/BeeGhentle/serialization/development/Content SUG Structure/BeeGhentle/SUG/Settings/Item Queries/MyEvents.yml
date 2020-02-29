@@ -1,0 +1,22 @@
+﻿---
+ID: "9e8a9158-2687-413f-858e-dd519e4d601d"
+Parent: "77024ceb-aafe-4509-9c0e-2a3409eecb58"
+Template: "e379ca4e-ec5d-4001-9489-c0a7ceca4c94"
+Path: /sitecore/content/BeeGhentle/SUG/Settings/Item Queries/MyEvents
+DB: master
+SharedFields:
+- ID: "e9657877-584c-4ccf-8300-dc9246c8c80b"
+  Hint: Query
+  Value: "code:Feature.Attendees.Subscribers.MyEvents,Feature.Attendees"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T232147Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

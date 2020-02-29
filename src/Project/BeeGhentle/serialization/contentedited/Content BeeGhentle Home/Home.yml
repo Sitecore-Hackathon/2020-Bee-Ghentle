@@ -38,10 +38,17 @@ Languages:
               s:ph="/main/sxa-page/container-3" />
             <r
               uid="{F4096E32-E4F3-4287-BD5D-1EE2CCA5B225}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{6CBE9C1A-11A1-44CF-9DB0-3701EE1D978E}']"
               s:ds="{4DDB55A8-EF7C-4246-A797-0A640A2807AA}"
               s:id="{C4060A7D-74EF-4998-9B8A-737EDB4E41B5}"
               s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature=groups&amp;Styles&amp;CollapsedModeTreshold&amp;RenderingIdentifier"
+              s:ph="/main/sxa-page/container-3" />
+            <r
+              uid="{5E091B22-01AE-4461-9C04-8CFA0980C2FC}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{2E991AA4-4B08-43D2-AD2B-17C11E69A499}"
+              s:par="SourceType=%7B9E8A9158-2687-413F-858E-DD519E4D601D%7D&amp;Reset Caching Options&amp;ListSignature=myevents&amp;PageSize&amp;Offset&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1380FDFD-D4F8-45D3-9B9B-A55E6463A914%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
               s:ph="/main/sxa-page/container-3" />
           </d>
         </r>
