@@ -1,0 +1,17 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <WebPublishMethod>FileSystem</WebPublishMethod>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <SiteUrlToLaunchAfterPublish />
+    <LaunchSiteAfterPublish>True</LaunchSiteAfterPublish>
+    <ExcludeApp_Data>False</ExcludeApp_Data>
+    <publishUrl>..\..\..\..\..\wwwroot\ht2020sc.local.reference.be</publishUrl>
+    <DeleteExistingFiles>False</DeleteExistingFiles>
+    <IncludeSetAclProviderOnDestination>false</IncludeSetAclProviderOnDestination>
+	<ExcludeFilesFromDeployment>
+        bin\Sitecore.*.dll;
+        bin\Sitecore.*.xml
+    </ExcludeFilesFromDeployment>
+  </PropertyGroup>
+</Project>
