@@ -1,6 +1,6 @@
 const extend = require('extend');
 const path = require('path');
-const {configUtils} = require('@sxa/celt');
+const { configUtils } = require('@sxa/celt');
 
 module.exports = {
 
@@ -92,7 +92,8 @@ module.exports = {
         disableSourceUploading: true
     },
     es: {
-        path: 'sources/**/*.js',
+        // path: 'sources/**/*.js',
+        path: 'sources/index.js',
         targetPath: 'scripts/',
         disableSourceUploading: true
     },
