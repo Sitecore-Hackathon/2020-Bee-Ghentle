@@ -1,8 +1,8 @@
 ﻿---
 ID: "dcfdff39-7be8-4a75-aa1e-802880ff03d6"
-Parent: "7f4eebd7-8665-4b4e-bd00-611553b118b0"
+Parent: "3685bdaf-7217-405d-ab65-017d6fc990f0"
 Template: "070a64fa-5f1b-40cc-83cb-3ce05d1895fc"
-Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Search Results/UserGroups/Logo
+Path: "/sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Search Results/UserGroups/UserGroup-Listitem/Logo"
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -11,6 +11,9 @@ SharedFields:
 - ID: "df178dc4-b83d-46ec-8d4f-9de85e2c996c"
   Hint: FieldName
   Value: Logo
+- ID: "e4c798fc-30e5-46ed-990e-bcddbf3444a1"
+  Hint: DefaultSize
+  Value: 200
 Languages:
 - Language: en
   Versions:

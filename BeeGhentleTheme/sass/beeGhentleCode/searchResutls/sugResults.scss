@@ -1,0 +1,10 @@
+.search-results--user-groups {
+  .search-result-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: $padding-small 0;
+    min-height: 50vh;
+  }
+}

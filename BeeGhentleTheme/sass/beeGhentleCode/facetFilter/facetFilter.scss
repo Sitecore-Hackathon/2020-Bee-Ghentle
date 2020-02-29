@@ -1,0 +1,51 @@
+.facet-single-selection-list {
+  .component-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentContainer {
+    width: 100%;
+  }
+
+  .facet-heading {
+    border: none;
+    .facet-title {
+      padding: 0;
+      font-size: 1.5em;
+    }
+    .clear-filter {
+      display: none;
+    }
+  }
+  
+  // TODO: hover styles & better mobile
+  .facet-search-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .facet-value {
+      padding: 10px;
+      margin: 10px 5px;
+      border: 1px solid $color-brand-dark;
+      border-radius: 25px;
+      font-weight: 700;
+
+      &:last-of-type {
+        border: 1px solid $color-brand-dark;
+      }
+    }
+
+    .facet-value.active-facet {
+      background-color: $color-brand-light;
+      border: 1px solid $color-brand-light;
+
+      span {
+        color: white;
+      }
+    }
+  }
+
+}

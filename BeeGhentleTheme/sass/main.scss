@@ -89,5 +89,8 @@ $content-background-color: white;
 $padding-small: 10px;
 $padding-medium: 30px;
 $padding-big: 60px;
+
+$color-brand-dark: #600B06;
+$color-brand-light: #E11D2E;
 // The overwrites & code of us, so we don't mess with default sxa styles
 @import "beeGhentleCode/**/*.scss";

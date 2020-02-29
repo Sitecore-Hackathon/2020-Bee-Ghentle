@@ -6,6 +6,9 @@ Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Search Re
 DB: master
 BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 - ID: "e1d5adba-8348-4127-9bb6-455936653839"
   Hint: CssClass
   Value: horizontal

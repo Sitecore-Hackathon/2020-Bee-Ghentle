@@ -1,0 +1,33 @@
+﻿---
+ID: "3685bdaf-7217-405d-ab65-017d6fc990f0"
+Parent: "7f4eebd7-8665-4b4e-bd00-611553b118b0"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: "/sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Search Results/UserGroups/UserGroup-Listitem"
+DB: master
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <a href="{{i_item.url}}">
+        <div class="list-item-image image-circle">
+            {{sc_execute i_item "Logo"}}
+        </div>
+        <div class="list-item-info">
+           <span class="country">{{i_item.title}}</span><span class="location">{{i_item.location}}</span>
+        </div>
+    </a>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T134821Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
