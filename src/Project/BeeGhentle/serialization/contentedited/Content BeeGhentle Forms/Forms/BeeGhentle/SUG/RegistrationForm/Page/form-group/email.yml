@@ -12,6 +12,10 @@ SharedFields:
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
   Value: DBF5E09622D74354B3B8B57EF4422006
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
 - ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
   Hint: Min Length
   Value: 0

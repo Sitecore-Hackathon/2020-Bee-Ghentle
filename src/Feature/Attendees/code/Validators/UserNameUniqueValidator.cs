@@ -9,13 +9,10 @@ namespace Feature.Attendees.Validators
 {
     public class UserNameUniqueValidator : ValidationElement<string>
     {
-        private const string NamePattern = "^[a-zA-Z ]*$";
 
         public UserNameUniqueValidator(ValidationDataModel validationItem) : base(validationItem)
         {
         }
-
-        public override IEnumerable<ModelClientValidationRule> ClientValidationRules { get; }
 
         public string Title { get; set; }
 
@@ -27,12 +24,21 @@ namespace Feature.Attendees.Validators
             }
 
             var stringValue = (string)value;
-            if (!User.Exists(stringValue))
+            string fullyQualifiedUserName = $"extranet\\{stringValue}";
+            if (!User.Exists(fullyQualifiedUserName))
             {
                 return ValidationResult.Success;
             }
 
             return new ValidationResult(FormatMessage(Title));
+        }
+
+        public override IEnumerable<ModelClientValidationRule> ClientValidationRules
+        {
+            get
+            {
+                return new List<ModelClientValidationRule>();
+            }
         }
 
 

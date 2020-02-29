@@ -24,11 +24,13 @@ namespace Feature.Attendees.SubmitActions
                 string password = GetFormValue(formSubmitContext, "password");
                 string firstName = GetFormValue(formSubmitContext, "firstname");
                 string lastName = GetFormValue(formSubmitContext, "lastname");
-                if (!User.Exists(userName))
+
+                string fullyQualifiedUserName = $"extranet\\{userName}";
+                if (!User.Exists(fullyQualifiedUserName))
                 {
-                    Membership.CreateUser($"extranet\\{userName}", password, email);
+                    Membership.CreateUser(fullyQualifiedUserName, password, email);
                     // Edit the profile information
-                    var user = User.FromName($"extranet\\{userName}", true);
+                    var user = User.FromName(fullyQualifiedUserName, true);
                     var userProfile = user.Profile;
                     userProfile.FullName = string.Format("{0} {1}", firstName, lastName);
 
