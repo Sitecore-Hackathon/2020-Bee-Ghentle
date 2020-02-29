@@ -1,0 +1,21 @@
+﻿---
+ID: "7a9bc815-ec21-4e89-848c-333452a8c69a"
+Parent: "2126b1b9-3d3d-4bf2-817f-a0fc37d4c418"
+Template: "6042e216-f650-447c-86d1-00fea97454e7"
+Path: /sitecore/content/BeeGhentle/SUG/Settings/Facets/Region
+DB: master
+SharedFields:
+- ID: "0e23bb51-c071-41b5-9d83-ac410b89b85a"
+  Hint: Parameters
+  Value: region
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100254Z
+    - ID: "31ca077f-ef38-4980-8a24-05408031b2bc"
+      Hint: Name
+      Value: Region
