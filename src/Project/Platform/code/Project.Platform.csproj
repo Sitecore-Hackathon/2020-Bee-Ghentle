@@ -139,7 +139,7 @@
     <Content Include="App_Config\Include\Project\Platform\Project.Platform.Serialization.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
-    <None Include="web.config" />
+    <Content Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

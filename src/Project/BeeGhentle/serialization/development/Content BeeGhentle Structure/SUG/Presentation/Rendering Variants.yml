@@ -1,0 +1,18 @@
+﻿---
+ID: "0bcc3973-2ae1-4e18-af4d-7b46a80858b4"
+Parent: "457db449-cc2e-40c6-8655-f93c1b4b7c5c"
+Template: "bbb9ae71-c6b4-4201-83e7-ac5b3ef373dc"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051906Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "f77c18b0-d27d-4163-af57-00b5d3b94ac6"
+Parent: "f162423a-03f6-4284-a29c-7fc1fb9cd163"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Skip Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

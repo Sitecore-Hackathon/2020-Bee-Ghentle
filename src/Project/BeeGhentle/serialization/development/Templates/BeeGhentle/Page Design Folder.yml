@@ -1,0 +1,25 @@
+﻿---
+ID: "5e62a2d1-5f9f-42c0-b083-f23896b7efc6"
+Parent: "c28f87eb-ba6a-41dc-9e73-6c44c770d972"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BeeGhentle/Page Design Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_chart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{EC7CC4E4-3A6E-4512-808B-691A8B46045E}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{DB643AF9-9AFC-41D2-9009-00847AEB70FC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051648Z

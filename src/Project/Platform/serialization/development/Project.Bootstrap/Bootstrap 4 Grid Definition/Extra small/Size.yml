@@ -1,0 +1,21 @@
+﻿---
+ID: "f9b61d1a-0120-4200-baef-bc847a558b9f"
+Parent: "2a616fba-22cc-4958-879a-3d66e763e80f"
+Template: "5e32e75f-446a-412c-8ed8-922320ae9031"
+Path: /sitecore/system/Settings/Feature/Experience Accelerator/Bootstrap 4/Bootstrap 4 Grid Definition/Extra small/Size
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T082214Z
+    - ID: "9c7cf235-a456-4320-a156-03f1e0cca6c6"
+      Hint: Tooltip
+      Value: Component width.

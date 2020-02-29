@@ -1,0 +1,18 @@
+﻿---
+ID: "5650ded8-36f9-491f-87a2-2461be31b6fe"
+Parent: "f162423a-03f6-4284-a29c-7fc1fb9cd163"
+Template: "81150e58-37f5-443f-a3c0-75e14a9321e7"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Media
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051921Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

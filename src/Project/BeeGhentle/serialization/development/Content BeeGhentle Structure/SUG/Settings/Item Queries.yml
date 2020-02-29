@@ -1,0 +1,18 @@
+﻿---
+ID: "77024ceb-aafe-4509-9c0e-2a3409eecb58"
+Parent: "e257b145-5863-4692-80bf-059244c8dc04"
+Template: "5c76ad53-96cd-4b96-9690-dd9af2650171"
+Path: /sitecore/content/BeeGhentle/SUG/Settings/Item Queries
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

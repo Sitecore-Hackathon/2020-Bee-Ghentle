@@ -1,0 +1,26 @@
+﻿---
+ID: "e1704ef2-d902-4e9a-b882-f4a6fb20d7ab"
+Parent: "6f5fe054-d9e9-4fde-b1a7-e1708e463852"
+Template: "6f5fe054-d9e9-4fde-b1a7-e1708e463852"
+Path: /sitecore/templates/Project/BeeGhentle/Partial Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {6F5FE054-D9E9-4FDE-B1A7-E1708E463852}
+    {047C73D0-38D7-41A0-A0F2-1B865CCF4FB0}
+    {C2A8E276-1757-4957-9DD5-8669B79FD80D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051648Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "df38db40-2943-4c77-8bae-47b6adacc88e"
+Parent: "e257b145-5863-4692-80bf-059244c8dc04"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/content/BeeGhentle/SUG/Settings/Twitter Apps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051945Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

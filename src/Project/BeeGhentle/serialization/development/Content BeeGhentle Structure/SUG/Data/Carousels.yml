@@ -1,0 +1,18 @@
+﻿---
+ID: "6c27915e-a24b-4d49-8d38-94e592d88450"
+Parent: "f162423a-03f6-4284-a29c-7fc1fb9cd163"
+Template: "a13a1b91-fd2b-494b-9086-008852175b0a"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Carousels
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T051909Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
