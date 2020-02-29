@@ -1,0 +1,22 @@
+﻿---
+ID: "24b54dc7-cbe6-48c2-8335-9e6e3963bb4b"
+Parent: "60f121e5-077a-4413-b7ff-46c43d341d5b"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Partial Designs/Header/Data/Text 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T134722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <a href="~/link.aspx?_id=5A4F0C27F6CA4B69BAEB627E232F2F05&amp;_z=z">Login</a>&nbsp;|&nbsp;<a href="~/link.aspx?_id=AA0617577C01412FAE4C1050F75272C3&amp;_z=z">Register</a>

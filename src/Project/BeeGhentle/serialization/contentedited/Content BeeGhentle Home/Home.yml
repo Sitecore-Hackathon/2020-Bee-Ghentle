@@ -23,15 +23,8 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E5202B0D-5D46-4C62-BB16-96C7DA72B39B}"
-              p:before="*"
-              s:ds="{7BF15F1A-6520-4C16-B60F-8F6BB052E826}"
-              s:id="{E7AF0BB2-969E-4B4F-86AC-62FC4F2FE2D6}"
-              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
-              s:ph="/main/sxa-page/container-3" />
-            <r
               uid="{67B40CB3-F62F-453C-8394-BE4F71F61432}"
-              p:after="r[@uid='{E5202B0D-5D46-4C62-BB16-96C7DA72B39B}']"
+              p:before="*"
               s:ds="{85535628-4501-465E-BDFE-AD7BEA7D1BFB}"
               s:id="{2B2EC80B-13E2-445D-BA1A-8B8F037DED66}"
               s:par="Reset Caching Options&amp;SortOrder=SortByNames&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature=groups&amp;Styles&amp;HighlightThreshold=2&amp;HighlightBehaviour&amp;CollapseOnSelection&amp;MultiSelection&amp;RenderingIdentifier"
