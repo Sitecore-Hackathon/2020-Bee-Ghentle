@@ -3184,6 +3184,16 @@ h6 {
   border: 1px solid #600B06;
 }
 
+@media (max-width: 575px) {
+  .facet-single-selection-list .facet-search-filter .facet-value {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+    margin: 5px;
+  }
+}
+
 .facet-single-selection-list .facet-search-filter .facet-value.active-facet {
   background-color: #E11D2E;
   border: 1px solid #E11D2E;
@@ -3246,8 +3256,19 @@ h1 {
   padding: 0 30px;
 }
 
+@media (max-width: 575px) {
+  #header.container, #content.container, #footer.container {
+    padding: 0 15px;
+  }
+}
+
 #header.container {
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer.container {
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -3268,5 +3289,89 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 10px 0;
   min-height: 50vh;
+}
+
+.search-results--user-groups .search-result-list li {
+  padding: 10px;
+}
+
+.search-results--user-groups .search-result-list a {
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .search-results--user-groups .search-result-list {
+    min-height: 40vh;
+  }
+}
+
+.search-results--user-groups .list-item-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+  background-color: #E11D2E;
+  border: 2px solid #600B06;
+}
+
+.search-results--user-groups .list-item-image img {
+  width: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 575px) {
+  .search-results--user-groups .list-item-image {
+    width: 150px;
+    height: 150px;
+  }
+  .search-results--user-groups .list-item-image img {
+    width: 150px;
+  }
+}
+
+.search-results--user-groups .list-item-image:empty:before {
+  content: "SUG";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.search-results--user-groups .list-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.search-results--user-groups .sug-title {
+  color: #600B06;
+  font-size: 2em;
+}
+
+.search-results--user-groups .sug-location {
+  color: #9c8684;
+  font-size: 1.25em;
 }

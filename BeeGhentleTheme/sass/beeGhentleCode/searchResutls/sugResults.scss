@@ -1,3 +1,4 @@
+// TODO: hover styles & tab styles
 .search-results--user-groups {
   .search-result-list {
     display: flex;
@@ -6,5 +7,75 @@
     align-items: center;
     padding: $padding-small 0;
     min-height: 50vh;
+
+    li {
+      padding: $padding-small;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media(max-width: $mobile-grid-breakpoint) {
+      min-height: 40vh;
+    }
+  }
+
+  $list-image-size-big: 200px;
+  $list-image-size-small: 150px;
+  .list-item-image {
+    position: relative;
+    width: $list-image-size-big;
+    height: $list-image-size-big;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: $color-brand-light;
+    border: 2px solid $color-brand-dark;
+
+    img {
+      width: $list-image-size-big;
+      object-fit: cover;
+    }
+
+    @media(max-width: $mobile-grid-breakpoint) {
+      width: $list-image-size-small;
+      height: $list-image-size-small;
+
+      img {
+        width: $list-image-size-small;
+      }
+    }
+  }
+
+  .list-item-image:empty {
+    &:before {
+      content: "SUG";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      color: white;
+      font-size: 4em;
+      font-weight: 700;
+    }
+  }
+
+  .list-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .sug-title {
+      color: $color-brand-dark;
+      font-size: 2em;
+  }
+
+  .sug-location {
+    color: $color-gray;
+    font-size: 1.25em;
   }
 }
