@@ -1,0 +1,14 @@
+﻿---
+ID: "4b70f046-3703-4a95-9363-f6c25dcbbac6"
+Parent: "cfbd1727-9633-4b4f-ba25-3d022b2047ec"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/BeeGhentle/Attendees
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T221150Z
