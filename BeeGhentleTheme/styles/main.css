@@ -3268,5 +3268,67 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 10px 0;
   min-height: 50vh;
+}
+
+.search-results--user-groups .search-result-list li {
+  padding: 10px;
+}
+
+.search-results--user-groups .search-result-list a {
+  text-decoration: none;
+}
+
+.search-results--user-groups .list-item-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+  background-color: #E11D2E;
+  border: 2px solid #600B06;
+}
+
+.search-results--user-groups .list-item-image:empty:before {
+  content: "SUG";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.search-results--user-groups .list-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.search-results--user-groups .sug-title {
+  color: #600B06;
+  font-size: 2em;
+}
+
+.search-results--user-groups .sug-location {
+  color: #9c8684;
+  font-size: 1.25em;
 }
