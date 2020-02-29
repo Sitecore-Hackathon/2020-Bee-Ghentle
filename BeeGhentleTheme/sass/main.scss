@@ -98,18 +98,3 @@ $mobile-grid-breakpoint: 575px;
 // The overwrites & code of us, so we don't mess with default sxa styles
 @import "beeGhentleCode/**/*.scss";
 
-
-// #header {
-//     @include respond-to(mobile) {
-//         background: yellow!important;
-//     }
-//     @include respond-to(mobile-large) {
-//         background: hotpink!important;
-//     }
-//     @include respond-to(tablet) {
-//         background: lime!important;
-//     }
-//     @include respond-to(desktop) {
-//         background: gainsboro!important;
-//     }
-// }
