@@ -10,7 +10,7 @@ SharedFields:
   Value: 
 - ID: "64c4a943-ee2a-43ae-bf6a-e249b52cd8b5"
   Hint: Widths
-  Value: 80, 120, 200
+  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -19,7 +19,7 @@ SharedFields:
   Value: Picture
 - ID: "e4c798fc-30e5-46ed-990e-bcddbf3444a1"
   Hint: DefaultSize
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
