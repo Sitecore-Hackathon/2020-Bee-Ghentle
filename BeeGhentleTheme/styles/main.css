@@ -3122,7 +3122,6 @@ h6 {
   background-color: #ebebe4;
   color: #545454;
   -webkit-user-select: none;
-  -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   pointer-events: none;
@@ -3130,4 +3129,8 @@ h6 {
 
 #breadcrumbMenuSubcontrol_context_menu * {
   box-sizing: initial;
+}
+
+body {
+  border: 10px solid green;
 }

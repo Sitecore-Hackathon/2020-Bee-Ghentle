@@ -1,3 +1,7 @@
+##############
+ADDED shrinkwrap.json because we had an issue with gulp@3.9.1 that depends on graceful-fs (issues with our node version).
+##############
+
 ##
 Boilerplate for creating new theme for you Sitecore site. 
 
