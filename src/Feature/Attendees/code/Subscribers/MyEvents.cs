@@ -20,7 +20,7 @@ namespace Feature.Attendees.Subscribers
                 return Array.Empty<Item>();
             }
 
-            var user = Sitecore.Context.User.Name;
+            var user = Sitecore.Context.User.LocalName;
             var predicate = PredicateBuilder.True<SearchResultItem>();
             predicate = predicate.And(p => p["Subscribers"].Contains(user));
             predicate = predicate.And(x => x.TemplateName == "Event");
