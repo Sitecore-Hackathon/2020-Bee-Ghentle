@@ -1,0 +1,14 @@
+﻿---
+ID: "15492451-0fc9-4d47-9ad6-a7c618f9f21f"
+Parent: "22c50d6c-a8dd-48a7-b03d-7815ebbff34a"
+Template: "458a37ba-8222-4182-86e5-e086cfcdad5c"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Pagination/Events Page Selector Configuration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T112656Z

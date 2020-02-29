@@ -10,8 +10,9 @@
     <DeleteExistingFiles>False</DeleteExistingFiles>
     <IncludeSetAclProviderOnDestination>false</IncludeSetAclProviderOnDestination>
 	<ExcludeFilesFromDeployment>
-        bin\Sitecore.*.dll;
-        bin\Sitecore.*.xml
-    </ExcludeFilesFromDeployment>
+    bin\Sitecore.*.dll;
+    bin\Sitecore.*.xml;
+    bin\Scriban.dll
+  </ExcludeFilesFromDeployment>
   </PropertyGroup>
 </Project>
