@@ -146,7 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="App_Config\Feature\Usergroups\Feature.Usergroups.Scriban.config" />
+    <Content Include="App_Config\Include\Feature\Usergroups\Feature.Usergroups.Scriban.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="web.config" />
@@ -172,7 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Glass\code\Foundation.Glass.csproj">
-      <Project>{5e37d447-67ad-4627-9094-634b3fa27135}</Project>
+      <Project>{315a9789-ccbf-41fb-9ef1-37d2f679187e}</Project>
       <Name>Foundation.Glass</Name>
     </ProjectReference>
   </ItemGroup>

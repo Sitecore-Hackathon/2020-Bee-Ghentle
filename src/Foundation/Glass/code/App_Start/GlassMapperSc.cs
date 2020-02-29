@@ -6,30 +6,33 @@ DO NOT CHANGE THIS FILE - UPDATE GlassMapperScCustom.cs
 
 **************************************/
 
-using System.Linq;
 using Glass.Mapper;
 using Glass.Mapper.Configuration;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.Configuration.Fluent;
 using Glass.Mapper.Sc.IoC;
 using GlassMapper = Glass.Mapper;
+using System.Linq;
 
 namespace Foundation.Glass
 {
-    public class GlassMapperSc : GlassMapper.Sc.Pipelines.Initialize.GlassMapperSc
-    {
+	public class GlassMapperSc : GlassMapper.Sc.Pipelines.Initialize.GlassMapperSc
+	{
         public override IDependencyResolver CreateResolver()
         {
             var resolver = GlassMapperScCustom.CreateResolver();
             base.CreateResolver(resolver);
             return resolver;
         }
-
+        
         public override IConfigurationLoader[] GetGlassLoaders(Context context)
-        {
-            var loaders1 = GlassMapperScCustom.GlassLoaders();
-            var loaders2 = base.GetGlassLoaders(context);
-            return loaders1.Concat(loaders2).ToArray();
+        { 
+
+
+          var loaders1 = GlassMapperScCustom.GlassLoaders();        				
+          var loaders2 = base.GetGlassLoaders(context);
+
+          return loaders1.Concat(loaders2).ToArray();
         }
 
         public override void LoadConfigurationMaps(IDependencyResolver resolver, GlassMapper.Context context)
@@ -52,12 +55,12 @@ namespace Foundation.Glass
             base.LoadConfigurationMaps(resolver, context);
         }
 
-        public override void PostLoad(IDependencyResolver dependencyResolver)
-        {
-            GlassMapperScCustom.PostLoad();
-            base.PostLoad(dependencyResolver);
-        }
+	    public override void PostLoad(IDependencyResolver dependencyResolver)
+	    {
+			GlassMapperScCustom.PostLoad();
+		    base.PostLoad(dependencyResolver);
+	    }
 
-    }
+	}
 }
 #endregion
