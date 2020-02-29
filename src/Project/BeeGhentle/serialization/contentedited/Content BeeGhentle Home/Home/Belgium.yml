@@ -1,0 +1,29 @@
+﻿---
+ID: "a8b237fb-34e6-47ae-a750-a58275450555"
+Parent: "b79f991e-cf8e-4056-8511-a83ff8328dac"
+Template: "1e3cb5c2-9055-4434-a6b1-0a2c8cb1d739"
+Path: /sitecore/content/BeeGhentle/SUG/Home/Belgium
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08076361-18c5-4dfb-b78e-9f824074d693"
+      Hint: Contact
+      Value: Kevin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T085202Z
+    - ID: "3b658b46-d227-4c62-a1e3-0b1c5dcf2d81"
+      Hint: Title
+      Value: Belgium
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Belgium
+    - ID: "8d50319e-c6dc-4c1d-8992-4d8cb5531a97"
+      Hint: Region
+      Value: "{8150588D-BDAF-4078-BE9A-80FCD68D6817}"
+    - ID: "c39a0bd4-d9a8-4b6c-b9a1-4cb0a1e2d37d"
+      Hint: Location
+      Value: Belgica

@@ -1,0 +1,17 @@
+﻿---
+ID: "a7a21b10-8747-4088-8f22-de46dcc4e33a"
+Parent: "07762474-b034-4219-b9dd-4656352370f4"
+Template: "d508c471-d451-4471-b150-89743c151848"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Regions/US West
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T085718Z
+    - ID: "db6f60a9-3820-4775-ac92-6c38101465a5"
+      Hint: Title
+      Value: US West
