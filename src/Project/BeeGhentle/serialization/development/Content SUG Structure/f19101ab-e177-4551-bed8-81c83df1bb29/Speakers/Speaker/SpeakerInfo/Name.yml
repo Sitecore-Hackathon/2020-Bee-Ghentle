@@ -1,16 +1,13 @@
 ﻿---
-ID: "08244f75-e218-4425-9d1f-01db55be73f1"
-Parent: "d6927abf-3e5f-4e77-82f1-8f66f2ed1c3c"
+ID: "dfb5bdab-8b7b-4837-98b5-433254142a38"
+Parent: "86574fcb-5f83-4c32-808d-aea824e92fa6"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
-Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/Speakers/Bio
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/ListOfSpeakers/Speakers/Speaker/SpeakerInfo/Name
 DB: master
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName
-  Value: Bio
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
+  Value: Name
 Languages:
 - Language: en
   Versions:
@@ -18,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T163635Z
+      Value: 20200229T163628Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

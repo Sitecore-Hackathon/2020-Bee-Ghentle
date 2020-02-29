@@ -1,8 +1,8 @@
 ﻿---
 ID: "6f75da4d-05e4-4f4f-913e-1dcdaa582d99"
-Parent: "d6927abf-3e5f-4e77-82f1-8f66f2ed1c3c"
+Parent: "d62c86c1-1a8b-4eca-acde-19cf0a579c37"
 Template: "070a64fa-5f1b-40cc-83cb-3ce05d1895fc"
-Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/Speakers/Picture
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/ListOfSpeakers/Speakers/Speaker/SpeakerPicture/Picture
 DB: master
 SharedFields:
 - ID: "42a44ce6-94cc-432b-bc69-39867351207c"
@@ -13,7 +13,7 @@ SharedFields:
   Value: 80, 120, 200
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 0
 - ID: "df178dc4-b83d-46ec-8d4f-9de85e2c996c"
   Hint: FieldName
   Value: Picture
