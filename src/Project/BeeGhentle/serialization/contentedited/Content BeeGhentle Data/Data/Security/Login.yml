@@ -1,0 +1,22 @@
+﻿---
+ID: "414e99a3-c1dd-4bc4-ad3b-963112ebff14"
+Parent: "19b9d065-01eb-4c7a-afe4-ca234f28e865"
+Template: "abed54dc-4f78-40dd-ac56-2289c9c849d8"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Security/Login
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T132819Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d7be3834-097a-4151-827d-d852b54ff530"
+      Hint: DestinationUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B79F991E-CF8E-4056-8511-A83FF8328DAC}" />

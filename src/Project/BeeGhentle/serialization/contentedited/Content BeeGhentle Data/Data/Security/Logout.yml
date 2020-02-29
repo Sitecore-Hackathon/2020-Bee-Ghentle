@@ -1,0 +1,26 @@
+﻿---
+ID: "7bf15f1a-6520-4c16-b60f-8f6bb052e826"
+Parent: "19b9d065-01eb-4c7a-afe4-ca234f28e865"
+Template: "c2294d82-35a6-452a-94b1-5eb5e543b602"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Security/Logout
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13b96afd-2685-4c98-b2ac-d44d49893807"
+      Hint: DestinationUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B79F991E-CF8E-4056-8511-A83FF8328DAC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T133341Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8a12efae-3cb2-49da-817f-9c8b159ba45a"
+      Hint: DisplayUsername
+      Type: Checkbox
+      Value: 1
