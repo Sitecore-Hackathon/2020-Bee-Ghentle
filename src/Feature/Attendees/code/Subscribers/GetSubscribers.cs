@@ -24,7 +24,7 @@ namespace Feature.Attendees.Subscribers
             var userList = new List<User>();
             foreach (var userName in users)
             {
-                if (User.Exists(domainName + @"\" + userName))
+                if (!string.IsNullOrEmpty(userName) && User.Exists(domainName + @"\" + userName))
                 {
                     userList.Add(User.FromName(domainName + @"\" + userName, false));
                 }
