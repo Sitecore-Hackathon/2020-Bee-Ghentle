@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Security;
-using Sitecore.Data;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
 using Sitecore.Security.Accounts;
-using Sitecore.Security.Domains;
 
 namespace Feature.Attendees.SubmitActions
 {
@@ -58,7 +56,7 @@ namespace Feature.Attendees.SubmitActions
 
         private static string GetFormValue(FormSubmitContext formSubmitContext, string formFieldName)
         {
-            var field = formSubmitContext.Fields.FirstOrDefault(f => f.Name.Equals(formFieldName, StringComparison.InvariantCultureIgnoreCase));
+            var field = formSubmitContext.Fields.FirstOrDefault(f => f.Name.Equals(formFieldName, StringComparison.OrdinalIgnoreCase));
             return field?.GetType().GetProperty("Value")?.GetValue(field, null)?.ToString() ?? string.Empty;
         }
     }
