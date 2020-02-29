@@ -1,0 +1,36 @@
+﻿---
+ID: "5a4f0c27-f6ca-4b69-baeb-627e232f2f05"
+Parent: "b79f991e-cf8e-4056-8511-a83ff8328dac"
+Template: "9d97bd62-92e3-43d3-9d43-93b990e98151"
+Path: /sitecore/content/BeeGhentle/SUG/Home/Login
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F489B26C-2297-461A-8A96-195229643898}"
+              s:ds="{414E99A3-C1DD-4BC4-AD3B-963112EBFF14}"
+              s:id="{596DBC32-8F3B-4B67-9CAA-889B5F8DF538}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+              s:ph="/main/sxa-page/container-3" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T132150Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Login
+    - ID: "6dc36cb9-56c0-4e41-bd23-b4b4a9e0575e"
+      Hint: Title
+      Value: Login
