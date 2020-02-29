@@ -1,0 +1,19 @@
+﻿---
+ID: "e488c869-85aa-44a3-9f08-d9a25d1ade91"
+Parent: "706a72b7-0c76-4d14-a46c-afb7f6ec91c4"
+Template: "706a72b7-0c76-4d14-a46c-afb7f6ec91c4"
+Path: /sitecore/templates/Feature/BeeGhentle/UserGroups/Region Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{D508C471-D451-4471-B150-89743C151848}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T085419Z

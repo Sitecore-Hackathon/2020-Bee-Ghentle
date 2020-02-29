@@ -1,0 +1,14 @@
+﻿---
+ID: "aa62a0a5-f791-4ecc-bbba-1561647ce366"
+Parent: "d24b0361-1735-439e-b734-19858d29d034"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/BeeGhentle/Sessions/Session Category/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094922Z

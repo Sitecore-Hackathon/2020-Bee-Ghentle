@@ -1,0 +1,21 @@
+﻿---
+ID: "fbd35d0b-d397-46c2-abbf-9afd884c6d5a"
+Parent: "f173b62a-03a0-4a95-9cab-c3b13532c52c"
+Template: "f173b62a-03a0-4a95-9cab-c3b13532c52c"
+Path: /sitecore/templates/Feature/BeeGhentle/Sessions/Speaker Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F173B62A-03A0-4A95-9CAB-C3B13532C52C}
+    {ABC2FBDB-B002-4F4A-A35E-6E886C926B43}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093757Z

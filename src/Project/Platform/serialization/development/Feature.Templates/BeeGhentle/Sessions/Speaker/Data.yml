@@ -1,0 +1,14 @@
+﻿---
+ID: "d308a88e-380a-4373-8786-1a2fb94436f2"
+Parent: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/BeeGhentle/Sessions/Speaker/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092258Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "5d357728-cebc-4ee4-8c4a-5fafba7f1ec6"
+Parent: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Path: /sitecore/templates/Feature/BeeGhentle/Sessions/Speaker/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092840Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
+      Hint: Name
+      Value: $name

@@ -14,6 +14,7 @@ Languages:
       Value: 20200229T094523Z
     - ID: "4bb041ef-959e-4ab2-b29e-af5a437c4ae7"
       Hint: Category
+      Type: TreelistEx
       Value: "{A6BF1D7B-ACCB-457C-97B8-9B6EA69126F5}"
     - ID: "4ebccc02-711b-44e8-bb51-53a4a45d097a"
       Hint: Duration
