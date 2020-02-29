@@ -75,6 +75,11 @@
 
     .speaker-info {
       max-width: 200px;
+      
+      .field-name {
+        font-weight: 700;
+      }
+
       @media(max-width: $mobile-grid-breakpoint) {
         padding-top: $padding-small;
         text-align: center;

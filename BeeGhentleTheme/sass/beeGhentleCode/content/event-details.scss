@@ -5,5 +5,13 @@
     border: 10px solid $color-brand-dark;
     padding: 20px;
     margin-bottom: 10px;
+    
+    @media(max-width: $mobile-grid-breakpoint) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .label {
+    font-weight: 700;
   }
 }

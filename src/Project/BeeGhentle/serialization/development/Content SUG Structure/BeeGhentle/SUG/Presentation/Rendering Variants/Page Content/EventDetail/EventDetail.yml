@@ -1,0 +1,29 @@
+﻿---
+ID: "495edb0c-99de-418b-832f-0d36dff99bd5"
+Parent: "0b2db9c2-718e-41ac-b6d4-a279e78393ec"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page Content/EventDetail/EventDetail
+DB: master
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="event-date"><span class="label">When: </span>{{i_item.date}}</div>
+    <div class="event-location"><span class="label">Where: </span>{{i_item.location}}</div>
+    <div class="event-seats">{{i_item.seats}}  seats available</div>
+    <div class="event-links"><a href="{{i_item.url}}">{{i_item.url}}</a></div>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T220910Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

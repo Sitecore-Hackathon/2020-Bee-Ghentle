@@ -3139,6 +3139,17 @@ h6 {
   margin-bottom: 10px;
 }
 
+@media (max-width: 575px) {
+  .event-details .component-content {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.event-details .label {
+  font-weight: 700;
+}
+
 .facet-single-selection-list .component-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3539,6 +3550,10 @@ body {
 
 .page-list--sessions ul.items .speaker-info {
   max-width: 200px;
+}
+
+.page-list--sessions ul.items .speaker-info .field-name {
+  font-weight: 700;
 }
 
 @media (max-width: 575px) {
