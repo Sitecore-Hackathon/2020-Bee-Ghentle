@@ -4,6 +4,10 @@ Parent: "a8b237fb-34e6-47ae-a750-a58275450555"
 Template: "2fe84d01-19ad-4cf7-8dd2-553788249d4f"
 Path: /sitecore/content/BeeGhentle/SUG/Home/Belgium/Event02
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 Languages:
 - Language: en
   Versions:

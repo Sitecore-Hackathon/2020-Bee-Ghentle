@@ -1,0 +1,18 @@
+﻿---
+ID: "14943248-ff42-454b-8965-1f2faa0d8a1f"
+Parent: "56771e32-38ed-42da-9e0c-fcf7db280c0b"
+Template: "c3a7b309-1f83-4332-8860-fe2389ed3b6b"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Page Designs/UserGroup
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{3F6B8921-2E38-480A-A813-EB569B7A5961}|{76AB21AE-2752-45A4-83A5-56080562EDB8}|{81B26CB6-3CB0-489C-8D66-A0B69BE9859A}|{8D7E2F14-D6A1-45F5-910B-BF6CB3946AB0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T113950Z

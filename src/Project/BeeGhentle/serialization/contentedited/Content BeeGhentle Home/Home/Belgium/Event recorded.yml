@@ -4,6 +4,10 @@ Parent: "a8b237fb-34e6-47ae-a750-a58275450555"
 Template: "2fe84d01-19ad-4cf7-8dd2-553788249d4f"
 Path: /sitecore/content/BeeGhentle/SUG/Home/Belgium/Event recorded
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -20,7 +24,8 @@ Languages:
       Value: Event recorded
     - ID: "5923c095-5cdc-486a-b2c1-9a59d752e8f6"
       Hint: Url
-      Value: "http://www.sitecorehackathon.org/sitecore-hackathon-2020/"
+      Value: |
+        <link text="Hacka" linktype="external" url="http://www.sitecorehackathon.org/sitecore-hackathon-2020/" anchor="" target="" />
     - ID: "8063f75a-7ada-46d9-885c-26b6ddc21d17"
       Hint: Date
       Value: 20200115T190000Z
