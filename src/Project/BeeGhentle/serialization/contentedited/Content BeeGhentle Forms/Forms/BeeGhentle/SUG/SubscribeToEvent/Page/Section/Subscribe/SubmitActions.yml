@@ -1,0 +1,14 @@
+﻿---
+ID: "1f561c86-a301-4595-a7cd-bf8613aa573b"
+Parent: "ab76a60c-424a-4c23-b8e9-fd340b96dbb4"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/BeeGhentle/SUG/SubscribeToEvent/Page/Section/Subscribe/SubmitActions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T175900Z

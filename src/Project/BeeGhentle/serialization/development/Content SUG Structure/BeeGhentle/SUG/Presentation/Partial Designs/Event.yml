@@ -22,8 +22,21 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{1B34CC0A-6DF0-475C-8AB1-C569548C2BC1}"
+              uid="{C9A41026-290E-4C87-B98A-FC94CB2F1A19}"
               p:before="*"
+              s:ds="{F47F3593-5D88-4218-9414-463D3E21DA74}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:par=""
+              s:ph="/main/sxa-page/container-3/container-3/sitecoreFormsWrapper-4" />
+            <r
+              uid="{6AEAFE64-6B55-4345-BDF9-F31926208B86}"
+              p:after="r[@uid='{C9A41026-290E-4C87-B98A-FC94CB2F1A19}']"
+              s:id="{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
+              s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/main/sxa-page/container-3/container-3" />
+            <r
+              uid="{1B34CC0A-6DF0-475C-8AB1-C569548C2BC1}"
+              p:after="r[@uid='{6AEAFE64-6B55-4345-BDF9-F31926208B86}']"
               s:ds=""
               s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
               s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0B2DB9C2-718E-41AC-B6D4-A279E78393EC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
