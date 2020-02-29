@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Security;
-using Sitecore.Data;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
 using Sitecore.Security.Accounts;
-using Sitecore.Security.Domains;
 
 namespace Feature.Attendees.SubmitActions
 {
@@ -26,11 +24,13 @@ namespace Feature.Attendees.SubmitActions
                 string password = GetFormValue(formSubmitContext, "password");
                 string firstName = GetFormValue(formSubmitContext, "firstname");
                 string lastName = GetFormValue(formSubmitContext, "lastname");
-                if (!User.Exists(userName))
+
+                string fullyQualifiedUserName = $"extranet\\{userName}";
+                if (!User.Exists(fullyQualifiedUserName))
                 {
-                    Membership.CreateUser($"extranet\\{userName}", password, email);
+                    Membership.CreateUser(fullyQualifiedUserName, password, email);
                     // Edit the profile information
-                    var user = User.FromName($"extranet\\{userName}", true);
+                    var user = User.FromName(fullyQualifiedUserName, true);
                     var userProfile = user.Profile;
                     userProfile.FullName = string.Format("{0} {1}", firstName, lastName);
 
@@ -58,7 +58,7 @@ namespace Feature.Attendees.SubmitActions
 
         private static string GetFormValue(FormSubmitContext formSubmitContext, string formFieldName)
         {
-            var field = formSubmitContext.Fields.FirstOrDefault(f => f.Name.Equals(formFieldName, StringComparison.InvariantCultureIgnoreCase));
+            var field = formSubmitContext.Fields.FirstOrDefault(f => f.Name.Equals(formFieldName, StringComparison.OrdinalIgnoreCase));
             return field?.GetType().GetProperty("Value")?.GetValue(field, null)?.ToString() ?? string.Empty;
         }
     }

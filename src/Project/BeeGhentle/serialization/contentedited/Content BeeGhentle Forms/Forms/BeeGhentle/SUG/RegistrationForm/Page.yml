@@ -1,0 +1,25 @@
+﻿---
+ID: "e6f97c34-0fff-4305-ba2f-e666d13b237e"
+Parent: "911eb82e-3f0a-401c-8604-1592d3d48f8a"
+Template: "cfee7b51-8505-45ce-b843-9358f827df87"
+Path: /sitecore/Forms/BeeGhentle/SUG/RegistrationForm/Page
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 40FCB7907FA741D988F838E0B0DAC886
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T071953Z
