@@ -4,6 +4,10 @@ Parent: "9e205bd6-f05d-4bbc-890c-c397cfb733ae"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions
 DB: master
+SharedFields:
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: "page-list--sessions"
 Languages:
 - Language: en
   Versions:
