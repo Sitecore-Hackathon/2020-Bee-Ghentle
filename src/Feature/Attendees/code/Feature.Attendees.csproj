@@ -70,6 +70,9 @@
       <HintPath>..\..\..\..\packages\Glass.Mapper.Sc.93.Mvc.5.6.160\lib\net471\Glass.Mapper.Sc.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+	</Reference>
     <Reference Include="Scriban, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Scriban.2.0.1\lib\net45\Scriban.dll</HintPath>
     </Reference>
@@ -155,6 +158,8 @@
     <Compile Include="..\..\..\Dependencies\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
+    <Compile Include="Areas\Attendees\AttendeesAreaRegistration.cs" />
+    <Compile Include="Areas\Attendees\Controllers\AttendeesController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubmitActions\RegisterAttendee.cs" />
     <Compile Include="SubmitActions\SubscribeToEvent.cs" />
@@ -165,6 +170,8 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_config\Include\Feature\Attendees\Feature.Attendees.Serialization.config" />
+    <Content Include="Areas\Attendees\Views\web.config" />
+    <Content Include="Areas\Attendees\Views\Attendees\SubscribeToEvent.cshtml" />
     <Content Include="App_config\Include\Feature\Attendees\Feature.Attendees.Scriban.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
@@ -194,6 +201,10 @@
       <Project>{315A9789-CCBF-41FB-9EF1-37D2F679187E}</Project>
       <Name>Foundation.Glass</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Attendees\Data\" />
+    <Folder Include="Areas\Attendees\Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

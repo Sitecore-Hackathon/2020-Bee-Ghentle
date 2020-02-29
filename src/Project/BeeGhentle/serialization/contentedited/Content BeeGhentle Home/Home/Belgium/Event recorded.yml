@@ -10,7 +10,7 @@ SharedFields:
   Value: 100
 - ID: "dc7cb4c6-7246-4b59-81e8-8089b4259652"
   Hint: Subscribers
-  Value: gert|test|
+  Value: |Gandalf
 Languages:
 - Language: en
   Versions:

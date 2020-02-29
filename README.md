@@ -36,3 +36,18 @@ All teams are required to submit the following as part of their entry submission
   - What problem was solved
   - How did you solve it
   - What is the end result
+
+
+# Our documentation (for now)
+
+## Module purpose
+We created this site as a global SUG platform, where every local SUG communities can be managed with their events.
+People should be able to register & log in to subscribe to the events.
+
+## Module sitecore Hackathon Category
+We shose the Sitecore Meetup Website as our submission topic.
+
+- Sitecore Meetup Website – In recent events the Meetup.com site began charging for the registering and hosting of meetings as well as other features previously free. Many of the Sitecore User Groups rely on Meetup
+
+## How does the end user use the module?
+
