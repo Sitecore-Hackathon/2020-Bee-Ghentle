@@ -28,6 +28,10 @@ SharedFields:
 - ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
   Hint: EditingTheme
   Value: "{76E346BD-F81C-4F2B-82AB-05FDD065F2BC}"
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Type: Treelist
+  Value: "{9A641BF4-40F1-4726-95D5-2503307D27B8}"
 - ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
   Hint: MediaLibrary
   Value: "{A51AA7FD-0C1C-49BB-922E-36E6DE818392}"
