@@ -1,0 +1,17 @@
+﻿---
+ID: "429196ff-8278-44ad-8fa4-7363c5b977c9"
+Parent: "4b4658d0-5a91-4f00-a404-987b6f9d76d6"
+Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Tourists/Akshay
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094422Z
+    - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
+      Hint: Name
+      Value: Akshay

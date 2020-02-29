@@ -1,0 +1,17 @@
+﻿---
+ID: "87926b2d-bf19-46a4-b04f-8d182766b746"
+Parent: "fc0a30b4-e8b3-427e-b71f-1279278272a1"
+Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Robbie
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094011Z
+    - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
+      Hint: Name
+      Value: Robbie

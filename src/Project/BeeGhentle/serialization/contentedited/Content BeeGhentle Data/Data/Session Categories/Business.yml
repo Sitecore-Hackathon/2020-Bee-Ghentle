@@ -1,0 +1,17 @@
+﻿---
+ID: "38b40d73-99b3-499a-aa61-855d2094ce7e"
+Parent: "5cfd7fd9-c420-4b94-98c4-bfbed6a4c64e"
+Template: "d24b0361-1735-439e-b734-19858d29d034"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Session Categories/Business
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T095325Z
+    - ID: "26e816ba-1285-4c2b-b0ee-917a91f0d99d"
+      Hint: Title
+      Value: Business
