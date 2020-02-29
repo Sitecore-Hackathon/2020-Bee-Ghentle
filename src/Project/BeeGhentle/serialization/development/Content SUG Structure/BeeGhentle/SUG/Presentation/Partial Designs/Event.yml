@@ -1,0 +1,25 @@
+﻿---
+ID: "5e022bbe-ffa8-408b-b671-c4fb58040c9a"
+Parent: "bf9249ff-3dfb-4edf-8383-fe1572a6921d"
+Template: "047c73d0-38d7-41a0-a0f2-1b865ccf4fb0"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Partial Designs/Event
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: event
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T163140Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "76a92454-c8be-479b-b260-26aebced5a1a"
+      Hint: Base Partial Design
+      Value: "{950A49C2-860D-4E2B-9FFC-C794AE0ECAD2}"
