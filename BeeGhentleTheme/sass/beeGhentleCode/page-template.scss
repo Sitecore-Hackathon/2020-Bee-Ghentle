@@ -11,7 +11,12 @@
 
 #header.container, #content.container, #footer.container {
   background: $content-background-color;
-  padding: 0 30px;
+  padding: 0 $padding-medium;
+}
+
+#header.container {
+  padding-top: $padding-small;
+  padding-bottom: $padding-small;
 }
 // #header.container {}
 // #main.container {}
