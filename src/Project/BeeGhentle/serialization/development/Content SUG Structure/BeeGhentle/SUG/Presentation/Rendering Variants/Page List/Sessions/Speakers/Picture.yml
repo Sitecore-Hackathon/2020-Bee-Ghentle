@@ -5,12 +5,21 @@ Template: "070a64fa-5f1b-40cc-83cb-3ce05d1895fc"
 Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/Speakers/Picture
 DB: master
 SharedFields:
+- ID: "42a44ce6-94cc-432b-bc69-39867351207c"
+  Hint: Sizes
+  Value: 
+- ID: "64c4a943-ee2a-43ae-bf6a-e249b52cd8b5"
+  Hint: Widths
+  Value: 80, 120, 200
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
 - ID: "df178dc4-b83d-46ec-8d4f-9de85e2c996c"
   Hint: FieldName
   Value: Picture
+- ID: "e4c798fc-30e5-46ed-990e-bcddbf3444a1"
+  Hint: DefaultSize
+  Value: 200
 Languages:
 - Language: en
   Versions:

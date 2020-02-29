@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "b04fe662-2b23-44dd-b971-2b864a1ec55f"
   Hint: ScopeQuery
-  Value: "sxa:UnderCurrentPage;template:{1e3cb5c2-9055-4434-a6b1-0a2c8cb1d739}"
+  Value: "sxa:UnderCurrentPage;+template:{1e3cb5c2-9055-4434-a6b1-0a2c8cb1d739}"
 Languages:
 - Language: en
   Versions:

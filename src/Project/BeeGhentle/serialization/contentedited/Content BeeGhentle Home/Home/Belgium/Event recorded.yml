@@ -35,7 +35,3 @@ Languages:
     - ID: "adacae5c-a821-4b1a-a07b-c912c2e5d70a"
       Hint: Seats
       Value: 5
-    - ID: "fee13b8c-0a05-4705-ae61-7dc238296b60"
-      Hint: Sessions
-      Type: TreelistEx
-      Value: "{0BAD740F-AC0A-49E4-9A1F-4BCAE06B84EE}"

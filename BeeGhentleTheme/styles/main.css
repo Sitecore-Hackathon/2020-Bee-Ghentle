@@ -3442,4 +3442,5 @@ body {
 .search-results--user-groups .sug-location {
   color: #9c8684;
   font-size: 1.25em;
+  min-height: 30px;
 }
