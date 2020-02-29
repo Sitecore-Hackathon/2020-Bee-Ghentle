@@ -1,0 +1,17 @@
+﻿---
+ID: "4e688242-5fc8-42d5-8542-3bec5e43fcc5"
+Parent: "57bb2c53-6010-499d-868f-f682d4a2808b"
+Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Belgians/Alex D
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093905Z
+    - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
+      Hint: Name
+      Value: Alex D

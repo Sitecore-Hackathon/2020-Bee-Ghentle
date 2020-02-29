@@ -21,6 +21,10 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Belgium
+    - ID: "6e6f9320-ea9d-436a-8346-4d4f73430cae"
+      Hint: Logo
+      Value: |
+        <image mediaid="{B61333EF-3E7E-484A-8B03-931BDA363B05}" />
     - ID: "8d50319e-c6dc-4c1d-8992-4d8cb5531a97"
       Hint: Region
       Value: "{8150588D-BDAF-4078-BE9A-80FCD68D6817}"

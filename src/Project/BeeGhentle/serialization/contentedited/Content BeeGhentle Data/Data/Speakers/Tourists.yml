@@ -1,0 +1,14 @@
+﻿---
+ID: "4b4658d0-5a91-4f00-a404-987b6f9d76d6"
+Parent: "fc0a30b4-e8b3-427e-b71f-1279278272a1"
+Template: "f173b62a-03a0-4a95-9cab-c3b13532c52c"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Tourists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094417Z
