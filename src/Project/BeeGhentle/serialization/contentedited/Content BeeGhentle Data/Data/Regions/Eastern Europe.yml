@@ -1,0 +1,17 @@
+﻿---
+ID: "4a93f05b-8666-40dd-9f92-b5f4a2f3efa2"
+Parent: "07762474-b034-4219-b9dd-4656352370f4"
+Template: "d508c471-d451-4471-b150-89743c151848"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Regions/Eastern Europe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T085703Z
+    - ID: "db6f60a9-3820-4775-ac92-6c38101465a5"
+      Hint: Title
+      Value: Eastern Europe

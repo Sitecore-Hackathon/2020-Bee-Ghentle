@@ -1,0 +1,18 @@
+﻿---
+ID: "7f4eebd7-8665-4b4e-bd00-611553b118b0"
+Parent: "17ac6509-e6b3-44fe-8602-66e8fe1da05f"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Search Results/UserGroups
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T100028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "06cc44bc-0850-4f9a-8fe6-90fc39126e0d"
+Parent: "bc346727-aca5-4801-a37e-87168ba4b1f3"
+Template: "d6e71447-ec78-492d-8fce-91d1f97d6f64"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Sessions/Salesforce
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094054Z

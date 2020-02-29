@@ -1,0 +1,14 @@
+﻿---
+ID: "fc0a30b4-e8b3-427e-b71f-1279278272a1"
+Parent: "f162423a-03f6-4284-a29c-7fc1fb9cd163"
+Template: "f173b62a-03a0-4a95-9cab-c3b13532c52c"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093832Z

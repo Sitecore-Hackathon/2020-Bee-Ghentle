@@ -1,0 +1,17 @@
+﻿---
+ID: "d66aa1d0-fcaf-434b-bae5-766f4c4a9dfb"
+Parent: "07762474-b034-4219-b9dd-4656352370f4"
+Template: "d508c471-d451-4471-b150-89743c151848"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Regions/Middle East
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T085728Z
+    - ID: "db6f60a9-3820-4775-ac92-6c38101465a5"
+      Hint: Title
+      Value: Middle East

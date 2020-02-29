@@ -1,0 +1,32 @@
+﻿---
+ID: "e54b8932-d071-490e-ba53-0d61afa9215b"
+Parent: "d6a4131d-491b-4684-a05d-11737f98f972"
+Template: "786d319a-78a6-4cd7-b6cd-e0b0e1b10ee2"
+Path: /sitecore/content/BeeGhentle/SUG/Home/Belgium/Event recorded/CommerTex
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094523Z
+    - ID: "4bb041ef-959e-4ab2-b29e-af5a437c4ae7"
+      Hint: Category
+      Value: "{A6BF1D7B-ACCB-457C-97B8-9B6EA69126F5}"
+    - ID: "4ebccc02-711b-44e8-bb51-53a4a45d097a"
+      Hint: Duration
+      Value: 45
+    - ID: "b65f70c0-622b-4b04-b3d7-cda38a1a8c80"
+      Hint: Title
+      Value: CommerTex
+    - ID: "bfab6398-3f67-4cd9-a1e5-b7d853647378"
+      Hint: Speakers
+      Type: TreelistEx
+      Value: |
+        {429196FF-8278-44AD-8FA4-7363C5B977C9}
+        {3D20E54C-C907-4C46-9353-A5053D5D776F}
+    - ID: "ce1080f4-2ae7-4186-a5d0-ba69fdf444c6"
+      Hint: Content
+      Value: "Cortex meets Commerce. Joy!"

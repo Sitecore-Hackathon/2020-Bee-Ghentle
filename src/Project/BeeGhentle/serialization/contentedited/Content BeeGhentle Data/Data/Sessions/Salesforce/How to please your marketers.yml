@@ -1,0 +1,30 @@
+﻿---
+ID: "e3b09050-abf3-4c48-b9d9-b2cb18dca5c5"
+Parent: "06cc44bc-0850-4f9a-8fe6-90fc39126e0d"
+Template: "786d319a-78a6-4cd7-b6cd-e0b0e1b10ee2"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Sessions/Salesforce/How to please your marketers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T094105Z
+    - ID: "4bb041ef-959e-4ab2-b29e-af5a437c4ae7"
+      Hint: Category
+      Type: TreelistEx
+      Value: |
+        {A6BF1D7B-ACCB-457C-97B8-9B6EA69126F5}
+        {06C3E732-DFED-4B45-9085-38E5AC4DD3EE}
+    - ID: "4ebccc02-711b-44e8-bb51-53a4a45d097a"
+      Hint: Duration
+      Value: 25
+    - ID: "b65f70c0-622b-4b04-b3d7-cda38a1a8c80"
+      Hint: Title
+      Value: How to please your marketers
+    - ID: "bfab6398-3f67-4cd9-a1e5-b7d853647378"
+      Hint: Speakers
+      Type: TreelistEx
+      Value: "{4E688242-5FC8-42D5-8542-3BEC5E43FCC5}"

@@ -1,0 +1,17 @@
+﻿---
+ID: "c5d1ed70-db0a-4f6e-9657-dbafcef5deeb"
+Parent: "57bb2c53-6010-499d-868f-f682d4a2808b"
+Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Belgians/Gert G
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T093920Z
+    - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
+      Hint: Name
+      Value: Gert G

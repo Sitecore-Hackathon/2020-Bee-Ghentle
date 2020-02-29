@@ -1,0 +1,23 @@
+﻿---
+ID: "a6c1ae03-808f-4dae-af83-d11349226c6d"
+Parent: "b79f991e-cf8e-4056-8511-a83ff8328dac"
+Template: "1e3cb5c2-9055-4434-a6b1-0a2c8cb1d739"
+Path: /sitecore/content/BeeGhentle/SUG/Home/Scotland
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T101239Z
+    - ID: "3b658b46-d227-4c62-a1e3-0b1c5dcf2d81"
+      Hint: Title
+      Value: Scotland
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Scotland
+    - ID: "8d50319e-c6dc-4c1d-8992-4d8cb5531a97"
+      Hint: Region
+      Value: "{83003FD2-9CDF-447A-8B32-402450D199FA}"

@@ -1,0 +1,29 @@
+﻿---
+ID: "cb5aef1b-a3d5-407b-8963-8753dd1b0738"
+Parent: "a8b237fb-34e6-47ae-a750-a58275450555"
+Template: "2fe84d01-19ad-4cf7-8dd2-553788249d4f"
+Path: /sitecore/content/BeeGhentle/SUG/Home/Belgium/Event02
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a5c80-87aa-4259-9c55-3cd729ccbe59"
+      Hint: Title
+      Value: Usergroup Feb 2020
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T090738Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Event02
+    - ID: "8063f75a-7ada-46d9-885c-26b6ddc21d17"
+      Hint: Date
+      Value: 20200227T183000Z
+    - ID: "879428c0-1f86-4b3a-bea2-959586c2d153"
+      Hint: Location
+      Value: Leuven
+    - ID: "adacae5c-a821-4b1a-a07b-c912c2e5d70a"
+      Hint: Seats
+      Value: 8
