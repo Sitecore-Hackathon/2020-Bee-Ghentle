@@ -20,7 +20,7 @@
     }
   }
   
-  // TODO: hover styles & better mobile
+  // TODO: hover styles & reset button
   .facet-search-filter {
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +35,12 @@
 
       &:last-of-type {
         border: 1px solid $color-brand-dark;
+      }
+
+      @media(max-width: $mobile-grid-breakpoint) {
+        flex-grow: 1;
+        text-align: center;
+        margin: 5px;
       }
     }
 
