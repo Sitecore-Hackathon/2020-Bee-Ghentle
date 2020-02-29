@@ -19,4 +19,7 @@ Languages:
     - ID: "b3635965-6786-457c-9dee-28de73c0a331"
       Hint: Text
       Value: |
-        <a href="~/link.aspx?_id=5A4F0C27F6CA4B69BAEB627E232F2F05&amp;_z=z">Login</a>&nbsp;|&nbsp;<a href="~/link.aspx?_id=AA0617577C01412FAE4C1050F75272C3&amp;_z=z">Register</a>
+        <div class="login-buttons">
+        <a class="btn btn-outline-primary" href="~/link.aspx?_id=5A4F0C27F6CA4B69BAEB627E232F2F05&amp;_z=z">Login</a>
+        <a class="btn btn-primary" href="~/link.aspx?_id=AA0617577C01412FAE4C1050F75272C3&amp;_z=z">Register</a>
+        </div>
