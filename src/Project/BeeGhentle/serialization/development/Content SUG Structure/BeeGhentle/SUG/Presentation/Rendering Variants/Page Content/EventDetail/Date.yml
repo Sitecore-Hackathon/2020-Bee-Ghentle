@@ -1,0 +1,25 @@
+﻿---
+ID: "750dbf2b-ba88-4fff-b366-f588624e5445"
+Parent: "0b2db9c2-718e-41ac-b6d4-a279e78393ec"
+Template: "dc4ebc23-a470-4b5d-8df8-4a55fa823bb4"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page Content/EventDetail/Date
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: Date
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00aa3e05-dd03-47a9-aa1b-03a4dfbb3156"
+      Hint: DateFormat
+      Value: "{6661BFF7-029E-4C18-9288-10E143E436F2}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T170621Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

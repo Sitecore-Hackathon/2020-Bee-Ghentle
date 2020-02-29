@@ -16,23 +16,22 @@ namespace Feature.Attendees.SubmitActions
 
         protected override bool Execute(string data, FormSubmitContext formSubmitContext)
         {
-
             try
             {
-                string userName = GetFormValue(formSubmitContext, "username");
-                string email = GetFormValue(formSubmitContext, "email");
-                string password = GetFormValue(formSubmitContext, "password");
-                string firstName = GetFormValue(formSubmitContext, "firstname");
-                string lastName = GetFormValue(formSubmitContext, "lastname");
+                var userName = GetFormValue(formSubmitContext, "username");
+                var email = GetFormValue(formSubmitContext, "email");
+                var password = GetFormValue(formSubmitContext, "password");
+                var firstName = GetFormValue(formSubmitContext, "firstname");
+                var lastName = GetFormValue(formSubmitContext, "lastname");
 
-                string fullyQualifiedUserName = $"extranet\\{userName}";
+                var fullyQualifiedUserName = $"extranet\\{userName}";
                 if (!User.Exists(fullyQualifiedUserName))
                 {
                     Membership.CreateUser(fullyQualifiedUserName, password, email);
                     // Edit the profile information
                     var user = User.FromName(fullyQualifiedUserName, true);
                     var userProfile = user.Profile;
-                    userProfile.FullName = string.Format("{0} {1}", firstName, lastName);
+                    userProfile.FullName = $"{firstName} {lastName}";
 
                     userProfile.Save();
                 }
