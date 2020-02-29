@@ -1,0 +1,18 @@
+﻿---
+ID: "90134843-8fb2-439d-97ef-e917b4ab4539"
+Parent: "620aa2c8-220d-4faa-860a-b95d11680f3a"
+Template: "324733cf-afec-4281-9a18-03b6cfc4e535"
+Path: /sitecore/content/BeeGhentle/SUG/Data/Promos/Subscribers Promo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T223756Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

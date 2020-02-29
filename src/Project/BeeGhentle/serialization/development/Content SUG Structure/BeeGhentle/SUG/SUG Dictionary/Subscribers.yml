@@ -1,0 +1,22 @@
+﻿---
+ID: "fa441a1b-1a38-4d0c-8555-075dc91158a3"
+Parent: "94b42b56-201f-4dca-b348-e4ed340a3d19"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: /sitecore/content/BeeGhentle/SUG/SUG Dictionary/Subscribers
+DB: master
+SharedFields:
+- ID: "580c75a8-c01a-4580-83cb-987776ceb3af"
+  Hint: Key
+  Value: Subscribers
+Languages:
+- Language: en
+  Fields:
+  - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
+    Hint: Phrase
+    Value: "Who's coming?"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T224416Z
