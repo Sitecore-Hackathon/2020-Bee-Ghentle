@@ -4,6 +4,11 @@ Parent: "4b4658d0-5a91-4f00-a404-987b6f9d76d6"
 Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
 Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Tourists/Akshay
 DB: master
+SharedFields:
+- ID: "e9fcd463-cf07-4e12-8443-e3e5206f9b9d"
+  Hint: Picture
+  Value: |
+    <image mediaid="{3DF77C6A-71E4-4427-B7BC-9C97A3CE6108}" />
 Languages:
 - Language: en
   Versions:
@@ -15,3 +20,6 @@ Languages:
     - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
       Hint: Name
       Value: Akshay
+    - ID: "d36c0ea8-729b-4eda-a906-dac22ff7bd3b"
+      Hint: Bio
+      Value: "Why won't you be my friend?"

@@ -4,6 +4,11 @@ Parent: "57bb2c53-6010-499d-868f-f682d4a2808b"
 Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
 Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Belgians/Kevin Kyle K
 DB: master
+SharedFields:
+- ID: "e9fcd463-cf07-4e12-8443-e3e5206f9b9d"
+  Hint: Picture
+  Value: |
+    <image mediaid="{B61333EF-3E7E-484A-8B03-931BDA363B05}" />
 Languages:
 - Language: en
   Versions:
@@ -15,3 +20,6 @@ Languages:
     - ID: "91de13b6-f720-4101-bcf3-a15a47ea0ba8"
       Hint: Name
       Value: Kevin Kyle K
+    - ID: "d36c0ea8-729b-4eda-a906-dac22ff7bd3b"
+      Hint: Bio
+      Value: Kevin is Killer Kyle

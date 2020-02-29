@@ -4,6 +4,11 @@ Parent: "57bb2c53-6010-499d-868f-f682d4a2808b"
 Template: "abc2fbdb-b002-4f4a-a35e-6e886c926b43"
 Path: /sitecore/content/BeeGhentle/SUG/Data/Speakers/Belgians/Gert G
 DB: master
+SharedFields:
+- ID: "e9fcd463-cf07-4e12-8443-e3e5206f9b9d"
+  Hint: Picture
+  Value: |
+    <image mediaid="{86F00B2A-2728-434A-A314-A45DEA6E6E91}" />
 Languages:
 - Language: en
   Versions:
