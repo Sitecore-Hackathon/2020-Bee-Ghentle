@@ -40,6 +40,13 @@ Languages:
               s:par="SourceType=%7B90105CB9-2CFD-4151-9FA8-6CDF92B158C2%7D&amp;Reset Caching Options&amp;ListSignature&amp;PageSize&amp;Offset&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B6103AF7F-3FA2-4F05-B2EF-C10634512E2D%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
               s:ph="/main/sxa-page/container-3" />
             <r
+              uid="{A3BB8AB0-7DDB-4741-8FEB-756289467309}"
+              p:after="r[@uid='{82D9392B-295A-4699-AC0D-F54DE582BFE8}']"
+              s:ds="{90134843-8FB2-439D-97EF-E917B4AB4539}"
+              s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE5428C9E-AFEE-4942-B80E-466B2395F920%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/main/sxa-page/container-3" />
+            <r
               uid="{5893DF12-F48D-49C4-B171-35BBC41980D5}"
               p:after="*[1=2]"
               s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
