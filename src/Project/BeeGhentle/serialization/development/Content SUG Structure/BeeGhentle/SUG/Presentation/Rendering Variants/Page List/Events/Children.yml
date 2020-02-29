@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "a48604e6-b95e-41c4-b71d-af74365ec289"
   Hint: Query
-  Value: "sxa:UnderCurrentPage;template:{786d319a-78a6-4cd7-b6cd-e0b0e1b10ee2}"
+  Value: "sxa:UnderCurrentPage;+template:{786d319a-78a6-4cd7-b6cd-e0b0e1b10ee2}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 550

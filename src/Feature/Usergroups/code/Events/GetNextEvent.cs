@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Foundation.Glass;
+using Glass.Mapper;
 using Glass.Mapper.Sc;
 using Scriban.Runtime;
 using Sitecore.Data;
@@ -34,12 +35,14 @@ namespace Feature.Usergroups.Events
             var sitecoreContext = sitecoreServiceFactory.GetSitecoreService();
             var options = new GetItemsByQueryOptions
             {
-                Query = new Query("/*"),
+                Query = new Query("./*"),
                 RelativeItem = currentItem,
-                VersionCount = true
+                VersionCount = true,
+                Lazy = LazyLoading.Disabled
             };
 
-            var next = sitecoreContext.GetItems<UsergroupEvent>(options).Where(i => i.Date > DateTime.Now).OrderBy(d => d.Date).FirstOrDefault();
+            var nexti = sitecoreContext.GetItems<UsergroupEvent>(options);
+            var next = nexti.Where(i => i.Date > DateTime.Now).OrderBy(d => d.Date).FirstOrDefault();
             return next != null ? context.Database.GetItem(new ID(next.Id)) : null;
         }
     }

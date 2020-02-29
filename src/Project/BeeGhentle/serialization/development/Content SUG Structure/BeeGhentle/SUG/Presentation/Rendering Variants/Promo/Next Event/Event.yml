@@ -9,7 +9,7 @@ SharedFields:
   Hint: Template
   Value: |
     {{ 
-    i_event = sc_nextevent i_item
+    i_event = sc_nextevent i_page
     if i_event
        i_event.title
     end
