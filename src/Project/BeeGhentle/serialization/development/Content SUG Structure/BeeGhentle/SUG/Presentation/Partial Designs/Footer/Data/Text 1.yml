@@ -1,0 +1,22 @@
+﻿---
+ID: "a11a0343-98b7-4785-ad9d-77adf08f7ee1"
+Parent: "c706f284-840a-49f5-b245-6bb802609b8b"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Partial Designs/Footer/Data/Text 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T075511Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <p style="text-align: center;">Made by Bee Ghentle&nbsp; - 2020 - Sitecore Hackathon</p>
