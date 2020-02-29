@@ -8,12 +8,36 @@ SharedFields:
 - ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
   Hint: Template
   Value: |
+    <h2>{{sc_translate "Next Event"}}</h2
     {{ 
+    if !o_pagemode.is_experience_editor
     i_event = sc_nextevent i_page
-    if i_event
-       i_event.title
-    end
-    }}
+    if i_event}}
+    
+    <h3><a href="{{i_event.url}}">{{i_event.title}}</a></h3>
+    <div class="event-details">
+    <div class="event-info">
+    <div><span class="label">Date:</span> {{i_event.date}}</div>
+    <div><span class="label">Location: </span>{{i_event.location}}</div>
+    </div>
+    <div class="event-content">
+    {{ for i_child in i_event.children }}
+    {{ if i_child.template_id == "786D319A78A64CD7B6CDE0B0E1B10EE2" }}
+    <div class="event-session">
+    <div class="event-title">{{ i_child.Title }}</div>
+    <div class="event-speakers">
+    {{ for i_speaker in (sc_followmany i_child "speakers") }}
+    <div class="event-speaker">{{ sc_field i_speaker "Name" }}</div>
+    {{ end }}
+    </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    </div>
+    </div>
+    
+    {{end}}
+    {{end}}
 Languages:
 - Language: en
   Versions:
