@@ -117,6 +117,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="App_Config\Include\Project\BeeGhentle\Project.BeeGhentle.Serialization.config" />
+    <Content Include="App_Config\Include\Project\BeeGhentle\Project.BeeGhentle.Index.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\Release.pubxml" />
     <None Include="web.config" />

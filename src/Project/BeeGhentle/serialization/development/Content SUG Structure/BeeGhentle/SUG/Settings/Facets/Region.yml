@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "0e23bb51-c071-41b5-9d83-ac410b89b85a"
   Hint: Parameters
-  Value: region
+  Value: regionname
 Languages:
 - Language: en
   Versions:
