@@ -26,7 +26,7 @@ Languages:
               p:before="*"
               s:ds="local:/Data/Text 1"
               s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}"
-              s:pt="{BD945799-CE52-485E-A136-A97092B4A4BC}"
+              s:pt="{BF27362F-B871-4330-84FF-D3507F489402}"
               s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B11AC2357-586E-41B0-A677-557EB98E1CBA%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
               s:ph="/header/container-3">
               <rls>
@@ -66,7 +66,7 @@ Languages:
               p:after="r[@uid='{60CBF0BF-6691-46D2-9E49-4683CF957E81}']"
               s:ds="{7BF15F1A-6520-4C16-B60F-8F6BB052E826}"
               s:id="{E7AF0BB2-969E-4B4F-86AC-62FC4F2FE2D6}"
-              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+              s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier"
               s:ph="/header/container-3" />
             <r
               uid="{457D5872-5EEF-4BEC-90BB-6C7BB121CB26}"

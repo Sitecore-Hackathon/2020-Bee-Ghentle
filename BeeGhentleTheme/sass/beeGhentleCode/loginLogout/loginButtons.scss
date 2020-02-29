@@ -1,0 +1,52 @@
+.login-buttons {
+  z-index: 999;
+  display: flex;
+  
+  .btn {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.25s ease;
+}
+
+.btn.btn-outline-primary {
+  border: 2px solid $color-brand-dark;
+  color: $color-brand-dark;
+  
+  &:hover {
+    background: $color-brand-dark;
+    color: white;
+  }
+}
+
+.btn.btn-primary {
+  background: $color-brand-light;
+  border: 2px solid $color-brand-light;
+  color: white;
+
+  &:hover {
+    background: white;
+    color: $color-brand-light;
+  }
+}
+
+@media(min-width: $mobile-grid-breakpoint) {
+  #header {
+    .container:first-of-type {
+      position: absolute;
+      top: 0;
+      right: 0;
+      .rich-text .component-content {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
