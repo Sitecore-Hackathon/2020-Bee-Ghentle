@@ -10,7 +10,7 @@ SharedFields:
   Value: 
 - ID: "64c4a943-ee2a-43ae-bf6a-e249b52cd8b5"
   Hint: Widths
-  Value: 
+  Value: 20,40,100
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
