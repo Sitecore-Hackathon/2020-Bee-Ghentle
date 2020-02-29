@@ -51,3 +51,14 @@ We shose the Sitecore Meetup Website as our submission topic.
 
 ## How does the end user use the module?
 
+### The Home page
+
+![Example of the home page](/documentation/images/Homepage.png)
+
+### Usergroup pages
+
+![Example of the Usergroup detail page](/documentation/images/UserGroupDetailPage.png)
+
+### Event pages
+
+![Example of the Event detail page](/documentation/images/UserGroupDetailPage.png)
