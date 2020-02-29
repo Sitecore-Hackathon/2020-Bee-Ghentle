@@ -10,11 +10,15 @@
       border-radius: 5px;
 
       &:nth-child(odd) {
-        margin-right: 1%;
+        @media(min-width: $mobile-grid-breakpoint) {
+          margin-right: 1%;
+        }
       }
 
       &:nth-child(even) {
-        margin-left: 1%;
+        @media(min-width: $mobile-grid-breakpoint) {
+          margin-left: 1%;
+        }
       }
 
       h3 a {
@@ -26,6 +30,11 @@
         &:hover {
           text-decoration: underline;
         }
+      }
+      
+      @media(max-width: $mobile-grid-breakpoint) {
+        margin-bottom:10px;
+        width: 100%;
       }
     }
   }

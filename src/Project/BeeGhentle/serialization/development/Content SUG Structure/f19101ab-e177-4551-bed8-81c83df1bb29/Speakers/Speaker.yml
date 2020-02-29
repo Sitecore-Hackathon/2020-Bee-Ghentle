@@ -1,0 +1,25 @@
+﻿---
+ID: "985ce6b0-896a-4094-9a87-fa1dd7adaaeb"
+Parent: "d6927abf-3e5f-4e77-82f1-8f66f2ed1c3c"
+Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Page List/Sessions/ListOfSpeakers/Speakers/Speaker
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+- ID: "bea2740e-90d1-4b16-bd1d-7a7cc8605d2d"
+  Hint: CssClass
+  Value: "speaker-card"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T204215Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
