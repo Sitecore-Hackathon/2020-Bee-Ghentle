@@ -83,5 +83,7 @@ h6 {
 
 //End navigation bar fix
 
+// TODO make variables file if these get out of control:
+$content-background-color: white;
 // The overwrites & code of us, so we don't mess with default sxa styles
 @import "beeGhentleCode/**/*.scss";
