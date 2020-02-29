@@ -1,10 +1,9 @@
 ﻿---
-ID: "155483c1-0b9f-4c08-a1c1-f2777bd88bf3"
-Parent: "5035e71b-bd9c-489f-b310-95c38409575a"
+ID: "502e6baa-e975-46f2-8c5f-0a77bde205a5"
+Parent: "c27f3caa-3beb-4423-a78a-d780c1b46983"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
-Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Title/Default/Title
+Path: /sitecore/content/BeeGhentle/SUG/Presentation/Rendering Variants/Title/SectionTitle/Title
 DB: master
-BranchID: "9ce20276-ee4d-4810-932a-f8e8ba759377"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName
