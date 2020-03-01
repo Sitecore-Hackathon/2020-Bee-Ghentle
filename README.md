@@ -12,7 +12,7 @@ We shose the Sitecore Meetup Website as our submission topic.
 - Sitecore Meetup Website – In recent events the Meetup.com site began charging for the registering and hosting of meetings as well as other features previously free. Many of the Sitecore User Groups rely on Meetup
 
 ## Installation of the module:
-[Sitecore installation document] (https://github.com/Sitecore-Hackathon/2020-Bee-Ghentle/blob/master/documentation/BeeGhentleInstall.docx)
+https://github.com/Sitecore-Hackathon/2020-Bee-Ghentle/blob/master/documentation/BeeGhentleInstall.docx
 
 ## How does the end user use the module?
 
