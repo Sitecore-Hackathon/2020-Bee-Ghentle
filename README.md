@@ -16,6 +16,9 @@ https://github.com/Sitecore-Hackathon/2020-Bee-Ghentle/blob/master/documentation
 
 ## How does the end user use the module?
 
+Video:
+https://github.com/Sitecore-Hackathon/2020-Bee-Ghentle/blob/master/documentation/demo.mp4
+
 ### The Home page
 
 1. The main navigation (repeated on all pages)
