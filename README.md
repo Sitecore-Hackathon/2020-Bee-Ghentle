@@ -35,6 +35,8 @@ We shose the Sitecore Meetup Website as our submission topic.
 
 - A filterable results list that shows the user groups
 
+5. (not on image) We also have a list that shows a logged-in user's subscribed events.
+
 ![Example of the home page](/documentation/images/Homepage.png)
 
 ### Usergroup pages
@@ -68,5 +70,9 @@ We shose the Sitecore Meetup Website as our submission topic.
 - An event can have multiple sessions attached.
 - Each session Has a title, a field to show how long it would take, a place to put more info in rte and 1 or more speakers.
 - Each speaker can have a short bio & an image.
+
+3. (Not in image) We also have a subscribe button
+
+4. (Not in image) We also have a subscribed attendees list
 
 ![Example of the Event detail page](/documentation/images/EventDetailPage.png)
