@@ -59,11 +59,11 @@ We shose the Sitecore Meetup Website as our submission topic.
 
 1. Event details component
 
-  - These event details can be attached:
-    - The time and date of the event
-    - The location of the event
-    - How many seats are left
-    - A extra link (might be used for recorded sessions etc.)
+- These event details can be attached:
+  - The time and date of the event
+  - The location of the event
+  - How many seats are left
+  - A extra link (might be used for recorded sessions etc.)
 
 2. The sessions list
 
