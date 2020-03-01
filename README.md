@@ -82,3 +82,14 @@ https://github.com/Sitecore-Hackathon/2020-Bee-Ghentle/blob/master/documentation
 4. (Not in image) We also have a subscribed attendees list
 
 ![Example of the Event detail page](/documentation/images/EventDetailPage.png)
+
+## Footnotes:
+
+- We went for a global solution for all UG's - with a bit of security that could be manageable but security was out of scope
+- A lot more stuff was also on the radar: EXM, marketing automation, adding stuff to the contact to show recommendations through profile and pattern cards, and the obvious stuff like a map or a calendar view.. but..
+- We went for a "mvp" version - you can view groups, events and sessions, register and subscribe.. (all with maybe not all the needed features for a real live site, but they do work) 
+- and we also wanted a personal touch.. The "who's coming list", the "My events" on the homepage.. (it's a Sitecore Hackathon after all)
+- We also skipped some stuff like the 404 page, security headers, ...and even some placeholder settings.. things that are needed in a project that goes live but we wanted to focus on learning and showing other things.. and we only had 24h ;)
+
+Sincerely
+Alex Dhaenens, Gert Gullentops & Sam De Bock
